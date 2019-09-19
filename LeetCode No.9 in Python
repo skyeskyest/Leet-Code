@@ -7,4 +7,4 @@ class Solution:
         while x:
             x,m=divmod(x,10)
             res = res*10 + m
-            return x
+            return res=save
