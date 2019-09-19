@@ -1,0 +1,10 @@
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        if x<0:
+            return false
+        res = 0
+        save = x
+        while x:
+            x,m=divmod(x,10)
+            res = res*10 + m
+            return x
